@@ -11,7 +11,7 @@ body {
   --color-background: #2f303a;
   --color-slogan: #fff;
   --color-adress: #fff;
-  --color-footer-contakt: rgba(255, 255, 255, 0.6);
+  --color-footer-contact: rgba(255, 255, 255, 0.6);
   --color-background-button: #f5f4fa;
 }
 .top a {
@@ -41,10 +41,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.contakt a {
+.contact a {
   color: var(--color-text);
 }
-.contakt {
+.contact {
+  list-style: none;
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
@@ -70,6 +71,7 @@ body {
   width: 200px;
   height: 50px;
   background: var(--color-variable);
+  color: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -95,6 +97,9 @@ body {
   width: 1170px;
   height: 386px;
   margin-left: 215px;
+}
+.list-offer {
+  list-style: none;
 }
 .offer-caption {
   font-family: "Roboto";
@@ -145,6 +150,9 @@ body {
   height: 252px;
   background: var(--color-background);
 }
+.botton-list {
+  list-style: none;
+}
 .botton a {
   text-decoration: none;
   font-family: "Raleway";
@@ -152,9 +160,10 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--color-slogan);
 }
-
+.studio {
+  color: #fff;
+}
 .botton address {
   font-family: "Roboto";
   font-size: 14px;
@@ -162,17 +171,19 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-adress);
 }
-.botton-contakt {
+
+.botton-contact {
   font-family: "Roboto";
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--color-footer-contakt);
+  color: var(--color-footer-contact);
 }
-.button {
+.pushbutton {
   width: 1170px;
 }
-section button {
+.pushbutton button {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
@@ -183,9 +194,13 @@ section button {
   border: 0;
   cursor: pointer;
 }
-section button:hover,
-section button:focus {
+.pushbutton-list {
+  list-style: none;
+}
+.pushbutton button:hover,
+.pushbutton button:focus {
   background: var(--color-variable);
+  color: #fff;
 }
 .portfolio {
   list-style: none;
