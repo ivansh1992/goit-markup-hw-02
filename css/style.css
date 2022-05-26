@@ -149,16 +149,19 @@ body {
   height: 252px;
   background: var(--color-background);
 }
-.botton-list {
-  list-style: none;
-}
-.botton a {
-  text-decoration: none;
+.logo {
   font-family: "Raleway";
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+.botton-list {
+  list-style: none;
+}
+footer a {
+  text-decoration: none;
 }
 .studio {
   color: #fff;
@@ -178,6 +181,10 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--color-footer-contact);
+}
+.botton a:hover,
+.botton a:focus {
+  color: var(--color-variable);
 }
 .pushbutton {
   width: 1170px;
